@@ -1,0 +1,111 @@
+/* Global Layout */
+body {
+  width: 100%;
+}
+html,
+.main {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+.clr {
+  clear: both;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Header Layout */
+.header {
+  background: url(../images/header_bg.jpg) repeat-x top;
+  height: 217px;
+}
+.header_resize {
+  margin: 0 auto;
+  padding: 0 0 0 40px;
+  width: 930px;
+}
+.header .logo {
+  float: left;
+  width: auto;
+}
+
+/* Menu Layout */
+.menu_nav {
+  float: left;
+  width: 653px;
+}
+.menu_nav ul {
+  list-style: none;
+  padding: 20px 0 0;
+  margin: 0;
+}
+.menu_nav ul li {
+  float: left;
+  margin: 0 12px 0 0;
+}
+.menu_nav ul li a {
+  display: block;
+  padding: 6px 12px;
+  background: #f00 url(../images/menu.gif) repeat-x top;
+}
+.menu_nav ul li a:hover,
+.menu_nav ul li.active a {
+  background: url(../images/menu_a.gif) repeat-x top;
+}
+
+/* Content Layout */
+.content {
+  padding-bottom: 16px;
+}
+.content_resize {
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 890px;
+}
+.content .mainbar {
+  float: left;
+  width: 630px;
+}
+.content .mainbar .article_vert {
+  float: left;
+  width: 297px;
+  padding: 0 16px 0 0;
+}
+.content .sidebar {
+  float: right;
+  width: 236px;
+}
+
+/* Footer Layout */
+.fbg {
+  background-color: #222922;
+}
+.fbg_resize {
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 890px;
+}
+.footer {
+  background-color: #222222;
+  padding: 16px 0;
+  border-top: 1px solid #505050;
+}
+ul.fmenu {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 8px 0;
+}
+
+/* Forms Layout */
+ol {
+  list-style: none;
+}
+ol li {
+  display: block;
+  clear: both;
+}
+ol li .send {
+  margin: 16px 0 0 0;
+}
