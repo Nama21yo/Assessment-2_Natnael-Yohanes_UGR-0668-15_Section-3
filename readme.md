@@ -1,5 +1,7 @@
 # Business Box Project
 
+## Live-Demo (https://nama21yo.github.io/Assessment-2_Natnael-Yohanes_UGR-0668-15_3/)
+
 ## Description
 
 Business Box is a simple static website template suitable for showcasing businesses or corporate information. It features a clean layout with a header, main content area, sidebar, footer, and additional sections like an image gallery and contact information.
